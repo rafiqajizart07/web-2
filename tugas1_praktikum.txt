@@ -1,0 +1,35 @@
+Nama : Rafiq Abdul AJIZ
+NIM : 0110121333
+
+-Soal : 
+
+1. Jelaskan apa yang dimaksud dengan dokumen root ?
+2. Pada apache web server, apakah dokumen root harus terletak dalam direktori
+C:\xampp\htdocs ? Jelaskan jawaban anda
+3. Jelaskan apa yang dimaksud dengan perintah git : init, clone, remote, add, commit, push
+dan checkout
+4. Jelaskan perbedaan antara GitHub dan GitLab
+5. Apa bedanya variable user dengan variable system ?
+6. Apa persamaan variable system dengan variable constant ?
+
+-Jawaban :
+
+1. Dokumen root (document root) adalah direktori utama tempat file-file web disimpan dan diakses oleh server web. Ketika pengguna mengakses sebuah situs web, server akan mencari file di dalam dokumen root untuk disajikan kepada pengguna.  
+2. Tidak harus. Secara default, XAMPP mengatur dokumen root pada `C:\xampp\htdocs`, tetapi ini dapat diubah melalui konfigurasi file `httpd.conf` di Apache. Dengan mengedit direktif `DocumentRoot` dan `<Directory>`, kita dapat menentukan lokasi lain sebagai dokumen root.  
+3. Perintah dalam Git: 
+- `git init` → Menginisialisasi repository Git baru di dalam suatu direktori.  
+- `git clone <URL>` : Menyalin repository dari sumber jarak jauh (remote) ke komputer lokal.  
+- `git remote` : Mengelola daftar repository jarak jauh yang terhubung dengan repository lokal.  
+- `git add <file>` :  Menambahkan perubahan dalam file ke staging area sebelum dilakukan commit.  
+- `git commit -m "<pesan>"` : Menyimpan perubahan yang ada di staging area ke dalam repository dengan pesan deskriptif.  
+- `git push` : Mengirim perubahan yang telah di-commit dari repository lokal ke repository jarak jauh.  
+- `git checkout <branch>` : Berpindah ke branch lain dalam repository.  
+
+4. -GitHub : Platform hosting berbasis Git yang fokus pada kolaborasi proyek open-source dan memiliki fitur CI/CD yang lebih terbatas dibanding GitLab.  
+-GitLab : Platform berbasis Git yang lebih banyak digunakan di lingkungan perusahaan karena memiliki fitur CI/CD bawaan yang lebih lengkap serta bisa di-host sendiri (self-hosted).  
+
+5. -Variable User : Hanya berlaku untuk user tertentu yang sedang login. Variabel ini disimpan dalam konfigurasi user tertentu dan tidak berpengaruh pada user lain dalam sistem.  
+-Variable System : Berlaku untuk seluruh pengguna dalam sistem. Biasanya digunakan untuk konfigurasi global seperti path sistem dan variabel lingkungan yang mempengaruhi semua user.  
+6. Keduanya digunakan untuk menyimpan nilai yang dapat digunakan dalam sistem atau program, tetapi memiliki cakupan yang berbeda:  
+-Variable System : Digunakan pada tingkat sistem operasi untuk mengonfigurasi dan mengelola lingkungan sistem.  
+-Variable Constant : Biasanya digunakan dalam pemrograman untuk menyimpan nilai yang tidak berubah selama eksekusi program.  
