@@ -1,0 +1,1 @@
+<?php class Penelitian { public static function getAll() { return []; } }

@@ -1,0 +1,1 @@
+<?php class Dosen { public static function getAll() { return []; } }
